@@ -17,36 +17,36 @@
 
 
         <div class="govuk-form-group">
-          <fieldset class="govuk-fieldset" role="group" aria-describedby="date-learned-to-juggle-hint">
+          <fieldset class="govuk-fieldset" role="group" aria-describedby="date-learnt-to-juggle-hint">
             <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
               <h1 class="govuk-fieldset__heading">
-                When was your passport issued?
+                When did you learn to juggle?
               </h1>
             </legend>
-            <div id="date-learned-to-juggle-hint" class="govuk-hint">
+            <div id="date-learnt-to-juggle-hint" class="govuk-hint">
               For example, 12 11 2007
             </div>
-            <div class="govuk-date-input" id="date-learned-to-juggle">
+            <div class="govuk-date-input" id="date-learnt-to-juggle" {{ data['date-learnt-to-juggle'] }}>
               <div class="govuk-date-input__item">
                 <div class="govuk-form-group">
-                  <label class="govuk-label govuk-date-input__label" for="date-learned-to-juggle-day">
+                  <label class="govuk-label govuk-date-input__label" for="date-learnt-to-juggle-day">
                     Day
                   </label>
-                  <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="date-learned-to-juggle-day" name="date-learned-to-juggle-day" type="text" pattern="[0-9]*" inputmode="numeric"></div>
+                  <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="date-learnt-to-juggle-day" name="date-learnt-to-juggle-day" type="text" pattern="[0-9]*" inputmode="numeric" {{ data['date-learnt-to-juggle-day'] }}>{{ data['date-learnt-to-juggle-day'] }}</div>
               </div>
               <div class="govuk-date-input__item">
                 <div class="govuk-form-group">
-                  <label class="govuk-label govuk-date-input__label" for="date-learned-to-juggle-month">
+                  <label class="govuk-label govuk-date-input__label" for="date-learnt-to-juggle-month">
                     Month
                   </label>
-                  <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="date-learned-to-juggle-month" name="date-learned-to-juggle-month" type="text" pattern="[0-9]*" inputmode="numeric"></div>
+                  <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="date-learnt-to-juggle-month" name="date-learnt-to-juggle-month" type="text" pattern="[0-9]*" inputmode="numeric" {{ data['date-learnt-to-juggle-month'] }}></div>
               </div>
               <div class="govuk-date-input__item">
                 <div class="govuk-form-group">
-                  <label class="govuk-label govuk-date-input__label" for="date-learned-to-juggle-year">
+                  <label class="govuk-label govuk-date-input__label" for="date-learnt-to-juggle-year">
                     Year
                   </label>
-                  <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="date-learned-to-juggle-year" name="date-learned-to-juggle-year" type="text" pattern="[0-9]*" inputmode="numeric"></div>
+                  <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="date-learnt-to-juggle-year" name="date-learnt-to-juggle-year" type="text" pattern="[0-9]*" inputmode="numeric"></div>
               </div>
             </div>
 
